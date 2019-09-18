@@ -1,5 +1,10 @@
 <rules>
 
+  <rule key="CommentsMustBeJavadocFormatRule">
+    <priority>MAJOR</priority>
+    <configKey><![CDATA[rulesets/java/ali-comment.xml/CommentsMustBeJavadocFormatRule]]> </configKey>
+  </rule>
+
   <rule key="DontCallThreadRun">
     <priority>MAJOR</priority>
     <configKey>category/java/multithreading.xml/DontCallThreadRun</configKey>
