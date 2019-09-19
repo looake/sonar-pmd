@@ -123,10 +123,10 @@
             <groupId>net.java.dev.javacc</groupId>
             <artifactId>javacc</artifactId>
           </exclusion>
-          <exclusion>
-            <groupId>com.google.code.gson</groupId>
-            <artifactId>gson</artifactId>
-          </exclusion>
+          <!--<exclusion>-->
+            <!--<groupId>com.google.code.gson</groupId>-->
+            <!--<artifactId>gson</artifactId>-->
+          <!--</exclusion>-->
           <exclusion>
             <groupId>org.antlr</groupId>
             <artifactId>antlr4-runtime</artifactId>
