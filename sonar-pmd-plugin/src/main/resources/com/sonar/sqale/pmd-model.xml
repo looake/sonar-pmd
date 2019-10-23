@@ -3932,7 +3932,7 @@
     <chc>
       <key>P3C_PMD</key>
       <name>p3c pmd</name>
-      <!--AlibabaJavaComments-->
+      <!--AlibabaJavaComments  6-->
       <chc>
         <rule-repo>pmd</rule-repo>
         <rule-key>CommentsMustBeJavadocFormatRule</rule-key>
@@ -3959,19 +3959,19 @@
           <txt>min</txt>
         </prop>
       </chc>
-      <!--<chc>-->
-      <!--<rule-repo>pmd</rule-repo>-->
-      <!--<rule-key>ClassMustHaveAuthorRule</rule-key>-->
-      <!--<prop>-->
-      <!--<key>remediationFunction</key>-->
-      <!--<txt>CONSTANT_ISSUE</txt>-->
-      <!--</prop>-->
-      <!--<prop>-->
-      <!--<key>offset</key>-->
-      <!--<val>2</val>-->
-      <!--<txt>min</txt>-->
-      <!--</prop>-->
-      <!--</chc>-->
+      <chc>
+        <rule-repo>pmd</rule-repo>
+        <rule-key>ClassMustHaveAuthorRule</rule-key>
+        <prop>
+          <key>remediationFunction</key>
+          <txt>CONSTANT_ISSUE</txt>
+        </prop>
+        <prop>
+          <key>offset</key>
+          <val>2</val>
+          <txt>min</txt>
+        </prop>
+      </chc>
       <chc>
         <rule-repo>pmd</rule-repo>
         <rule-key>EnumConstantsMustHaveCommentRule</rule-key>
@@ -4011,8 +4011,7 @@
           <txt>min</txt>
         </prop>
       </chc>
-
-      <!--AlibabaJavaConcurrent-->
+      <!--AlibabaJavaConcurrent  8-->
       <chc>
         <rule-repo>pmd</rule-repo>
         <rule-key>ThreadPoolCreationRule</rule-key>
@@ -4029,6 +4028,19 @@
       <chc>
         <rule-repo>pmd</rule-repo>
         <rule-key>AvoidUseTimerRule</rule-key>
+        <prop>
+          <key>remediationFunction</key>
+          <txt>CONSTANT_ISSUE</txt>
+        </prop>
+        <prop>
+          <key>offset</key>
+          <val>2</val>
+          <txt>min</txt>
+        </prop>
+      </chc>
+      <chc>
+        <rule-repo>pmd</rule-repo>
+        <rule-key>AvoidManuallyCreateThreadRule</rule-key>
         <prop>
           <key>remediationFunction</key>
           <txt>CONSTANT_ISSUE</txt>
@@ -4104,8 +4116,7 @@
           <txt>min</txt>
         </prop>
       </chc>
-
-      <!--AlibabaJavaConcurrent-->
+      <!--AlibabaJavaConstant  2-->
       <chc>
         <rule-repo>pmd</rule-repo>
         <rule-key>UpperEllRule</rule-key>
@@ -4133,7 +4144,7 @@
         </prop>
       </chc>
 
-      <!--AlibabaJavaExceptions-->
+      <!--AlibabaJavaExceptions  3-->
       <chc>
         <rule-repo>pmd</rule-repo>
         <rule-key>MethodReturnWrapperTypeRule</rule-key>
@@ -4174,7 +4185,7 @@
         </prop>
       </chc>
 
-      <!--AlibabaJavaFlowControl-->
+      <!--AlibabaJavaFlowControl  4-->
       <chc>
         <rule-repo>pmd</rule-repo>
         <rule-key>SwitchStatementRule</rule-key>
@@ -4214,8 +4225,21 @@
           <txt>min</txt>
         </prop>
       </chc>
+      <chc>
+        <rule-repo>pmd</rule-repo>
+        <rule-key>AvoidNegationOperatorRule</rule-key>
+        <prop>
+          <key>remediationFunction</key>
+          <txt>CONSTANT_ISSUE</txt>
+        </prop>
+        <prop>
+          <key>offset</key>
+          <val>2</val>
+          <txt>min</txt>
+        </prop>
+      </chc>
 
-      <!--AlibabaJavaNaming-->
+      <!--AlibabaJavaNaming 11-->
       <chc>
         <rule-repo>pmd</rule-repo>
         <rule-key>ClassNamingShouldBeCamelRule</rule-key>
@@ -4242,7 +4266,6 @@
           <txt>min</txt>
         </prop>
       </chc>
-
       <chc>
         <rule-repo>pmd</rule-repo>
         <rule-key>ExceptionClassShouldEndWithExceptionRule</rule-key>
@@ -4361,23 +4384,10 @@
         </prop>
       </chc>
 
-      <!--AlibabaJavaOop-->
+      <!--AlibabaJavaOop  7-->
       <chc>
         <rule-repo>pmd</rule-repo>
         <rule-key>EqualsAvoidNullRule</rule-key>
-        <prop>
-          <key>remediationFunction</key>
-          <txt>CONSTANT_ISSUE</txt>
-        </prop>
-        <prop>
-          <key>offset</key>
-          <val>2</val>
-          <txt>min</txt>
-        </prop>
-      </chc>
-      <chc>
-        <rule-repo>pmd</rule-repo>
-        <rule-key>WrapperTypeEqualityRule</rule-key>
         <prop>
           <key>remediationFunction</key>
           <txt>CONSTANT_ISSUE</txt>
@@ -4453,8 +4463,36 @@
           <txt>min</txt>
         </prop>
       </chc>
+      <chc>
+        <rule-repo>pmd</rule-repo>
+        <rule-key>BigDecimalAvoidDoubleConstructorRule</rule-key>
+        <prop>
+          <key>remediationFunction</key>
+          <txt>CONSTANT_ISSUE</txt>
+        </prop>
+        <prop>
+          <key>offset</key>
+          <val>2</val>
+          <txt>min</txt>
+        </prop>
+      </chc>
 
-      <!--AlibabaJavaOthers-->
+      <!--AlibabaJavaOrm  1-->
+      <chc>
+        <rule-repo>pmd</rule-repo>
+        <rule-key>IbatisMethodQueryForListRule</rule-key>
+        <prop>
+          <key>remediationFunction</key>
+          <txt>CONSTANT_ISSUE</txt>
+        </prop>
+        <prop>
+          <key>offset</key>
+          <val>2</val>
+          <txt>min</txt>
+        </prop>
+      </chc>
+
+      <!--AlibabaJavaOthers  7-->
       <chc>
         <rule-repo>pmd</rule-repo>
         <rule-key>AvoidPatternCompileInMethodRule</rule-key>
@@ -4507,8 +4545,47 @@
           <txt>min</txt>
         </prop>
       </chc>
+      <chc>
+        <rule-repo>pmd</rule-repo>
+        <rule-key>MethodTooLongRule</rule-key>
+        <prop>
+          <key>remediationFunction</key>
+          <txt>CONSTANT_ISSUE</txt>
+        </prop>
+        <prop>
+          <key>offset</key>
+          <val>2</val>
+          <txt>min</txt>
+        </prop>
+      </chc>
+      <chc>
+        <rule-repo>pmd</rule-repo>
+        <rule-key>UseRightCaseForDateFormatRule</rule-key>
+        <prop>
+          <key>remediationFunction</key>
+          <txt>CONSTANT_ISSUE</txt>
+        </prop>
+        <prop>
+          <key>offset</key>
+          <val>2</val>
+          <txt>min</txt>
+        </prop>
+      </chc>
+      <chc>
+        <rule-repo>pmd</rule-repo>
+        <rule-key>AvoidDoubleOrFloatEqualCompareRule</rule-key>
+        <prop>
+          <key>remediationFunction</key>
+          <txt>CONSTANT_ISSUE</txt>
+        </prop>
+        <prop>
+          <key>offset</key>
+          <val>2</val>
+          <txt>min</txt>
+        </prop>
+      </chc>
 
-      <!--AlibabaJavaSets-->
+      <!--AlibabaJavaSets  6-->
       <chc>
         <rule-repo>pmd</rule-repo>
         <rule-key>ClassCastExceptionWithToArrayRule</rule-key>
