@@ -3959,19 +3959,19 @@
           <txt>min</txt>
         </prop>
       </chc>
-      <chc>
-        <rule-repo>pmd</rule-repo>
-        <rule-key>ClassMustHaveAuthorRule</rule-key>
-        <prop>
-          <key>remediationFunction</key>
-          <txt>CONSTANT_ISSUE</txt>
-        </prop>
-        <prop>
-          <key>offset</key>
-          <val>2</val>
-          <txt>min</txt>
-        </prop>
-      </chc>
+<!--      <chc>-->
+<!--        <rule-repo>pmd</rule-repo>-->
+<!--        <rule-key>ClassMustHaveAuthorRule</rule-key>-->
+<!--        <prop>-->
+<!--          <key>remediationFunction</key>-->
+<!--          <txt>CONSTANT_ISSUE</txt>-->
+<!--        </prop>-->
+<!--        <prop>-->
+<!--          <key>offset</key>-->
+<!--          <val>2</val>-->
+<!--          <txt>min</txt>-->
+<!--        </prop>-->
+<!--      </chc>-->
       <chc>
         <rule-repo>pmd</rule-repo>
         <rule-key>EnumConstantsMustHaveCommentRule</rule-key>
@@ -4090,32 +4090,32 @@
           <txt>min</txt>
         </prop>
       </chc>
-      <chc>
-        <rule-repo>pmd</rule-repo>
-        <rule-key>AvoidConcurrentCompetitionRandomRule</rule-key>
-        <prop>
-          <key>remediationFunction</key>
-          <txt>CONSTANT_ISSUE</txt>
-        </prop>
-        <prop>
-          <key>offset</key>
-          <val>2</val>
-          <txt>min</txt>
-        </prop>
-      </chc>
-      <chc>
-        <rule-repo>pmd</rule-repo>
-        <rule-key>CountDownShouldInFinallyRule</rule-key>
-        <prop>
-          <key>remediationFunction</key>
-          <txt>CONSTANT_ISSUE</txt>
-        </prop>
-        <prop>
-          <key>offset</key>
-          <val>2</val>
-          <txt>min</txt>
-        </prop>
-      </chc>
+<!--      <chc>-->
+<!--        <rule-repo>pmd</rule-repo>-->
+<!--        <rule-key>AvoidConcurrentCompetitionRandomRule</rule-key>-->
+<!--        <prop>-->
+<!--          <key>remediationFunction</key>-->
+<!--          <txt>CONSTANT_ISSUE</txt>-->
+<!--        </prop>-->
+<!--        <prop>-->
+<!--          <key>offset</key>-->
+<!--          <val>2</val>-->
+<!--          <txt>min</txt>-->
+<!--        </prop>-->
+<!--      </chc>-->
+<!--      <chc>-->
+<!--        <rule-repo>pmd</rule-repo>-->
+<!--        <rule-key>CountDownShouldInFinallyRule</rule-key>-->
+<!--        <prop>-->
+<!--          <key>remediationFunction</key>-->
+<!--          <txt>CONSTANT_ISSUE</txt>-->
+<!--        </prop>-->
+<!--        <prop>-->
+<!--          <key>offset</key>-->
+<!--          <val>2</val>-->
+<!--          <txt>min</txt>-->
+<!--        </prop>-->
+<!--      </chc>-->
       <!--AlibabaJavaConstant  2-->
       <chc>
         <rule-repo>pmd</rule-repo>
@@ -4145,19 +4145,19 @@
       </chc>
 
       <!--AlibabaJavaExceptions  3-->
-      <chc>
-        <rule-repo>pmd</rule-repo>
-        <rule-key>MethodReturnWrapperTypeRule</rule-key>
-        <prop>
-          <key>remediationFunction</key>
-          <txt>CONSTANT_ISSUE</txt>
-        </prop>
-        <prop>
-          <key>offset</key>
-          <val>2</val>
-          <txt>min</txt>
-        </prop>
-      </chc>
+<!--      <chc>-->
+<!--        <rule-repo>pmd</rule-repo>-->
+<!--        <rule-key>MethodReturnWrapperTypeRule</rule-key>-->
+<!--        <prop>-->
+<!--          <key>remediationFunction</key>-->
+<!--          <txt>CONSTANT_ISSUE</txt>-->
+<!--        </prop>-->
+<!--        <prop>-->
+<!--          <key>offset</key>-->
+<!--          <val>2</val>-->
+<!--          <txt>min</txt>-->
+<!--        </prop>-->
+<!--      </chc>-->
       <chc>
         <rule-repo>pmd</rule-repo>
         <rule-key>AvoidReturnInFinallyRule</rule-key>
@@ -4212,32 +4212,32 @@
           <txt>min</txt>
         </prop>
       </chc>
-      <chc>
-        <rule-repo>pmd</rule-repo>
-        <rule-key>AvoidComplexConditionRule</rule-key>
-        <prop>
-          <key>remediationFunction</key>
-          <txt>CONSTANT_ISSUE</txt>
-        </prop>
-        <prop>
-          <key>offset</key>
-          <val>2</val>
-          <txt>min</txt>
-        </prop>
-      </chc>
-      <chc>
-        <rule-repo>pmd</rule-repo>
-        <rule-key>AvoidNegationOperatorRule</rule-key>
-        <prop>
-          <key>remediationFunction</key>
-          <txt>CONSTANT_ISSUE</txt>
-        </prop>
-        <prop>
-          <key>offset</key>
-          <val>2</val>
-          <txt>min</txt>
-        </prop>
-      </chc>
+<!--      <chc>-->
+<!--        <rule-repo>pmd</rule-repo>-->
+<!--        <rule-key>AvoidComplexConditionRule</rule-key>-->
+<!--        <prop>-->
+<!--          <key>remediationFunction</key>-->
+<!--          <txt>CONSTANT_ISSUE</txt>-->
+<!--        </prop>-->
+<!--        <prop>-->
+<!--          <key>offset</key>-->
+<!--          <val>2</val>-->
+<!--          <txt>min</txt>-->
+<!--        </prop>-->
+<!--      </chc>-->
+<!--      <chc>-->
+<!--        <rule-repo>pmd</rule-repo>-->
+<!--        <rule-key>AvoidNegationOperatorRule</rule-key>-->
+<!--        <prop>-->
+<!--          <key>remediationFunction</key>-->
+<!--          <txt>CONSTANT_ISSUE</txt>-->
+<!--        </prop>-->
+<!--        <prop>-->
+<!--          <key>offset</key>-->
+<!--          <val>2</val>-->
+<!--          <txt>min</txt>-->
+<!--        </prop>-->
+<!--      </chc>-->
 
       <!--AlibabaJavaNaming 11-->
       <chc>
@@ -4463,19 +4463,19 @@
           <txt>min</txt>
         </prop>
       </chc>
-      <chc>
-        <rule-repo>pmd</rule-repo>
-        <rule-key>BigDecimalAvoidDoubleConstructorRule</rule-key>
-        <prop>
-          <key>remediationFunction</key>
-          <txt>CONSTANT_ISSUE</txt>
-        </prop>
-        <prop>
-          <key>offset</key>
-          <val>2</val>
-          <txt>min</txt>
-        </prop>
-      </chc>
+<!--      <chc>-->
+<!--        <rule-repo>pmd</rule-repo>-->
+<!--        <rule-key>BigDecimalAvoidDoubleConstructorRule</rule-key>-->
+<!--        <prop>-->
+<!--          <key>remediationFunction</key>-->
+<!--          <txt>CONSTANT_ISSUE</txt>-->
+<!--        </prop>-->
+<!--        <prop>-->
+<!--          <key>offset</key>-->
+<!--          <val>2</val>-->
+<!--          <txt>min</txt>-->
+<!--        </prop>-->
+<!--      </chc>-->
 
       <!--AlibabaJavaOrm  1-->
       <chc>
@@ -4545,19 +4545,19 @@
           <txt>min</txt>
         </prop>
       </chc>
-      <chc>
-        <rule-repo>pmd</rule-repo>
-        <rule-key>MethodTooLongRule</rule-key>
-        <prop>
-          <key>remediationFunction</key>
-          <txt>CONSTANT_ISSUE</txt>
-        </prop>
-        <prop>
-          <key>offset</key>
-          <val>2</val>
-          <txt>min</txt>
-        </prop>
-      </chc>
+<!--      <chc>-->
+<!--        <rule-repo>pmd</rule-repo>-->
+<!--        <rule-key>MethodTooLongRule</rule-key>-->
+<!--        <prop>-->
+<!--          <key>remediationFunction</key>-->
+<!--          <txt>CONSTANT_ISSUE</txt>-->
+<!--        </prop>-->
+<!--        <prop>-->
+<!--          <key>offset</key>-->
+<!--          <val>2</val>-->
+<!--          <txt>min</txt>-->
+<!--        </prop>-->
+<!--      </chc>-->
       <chc>
         <rule-repo>pmd</rule-repo>
         <rule-key>UseRightCaseForDateFormatRule</rule-key>
@@ -4571,19 +4571,19 @@
           <txt>min</txt>
         </prop>
       </chc>
-      <chc>
-        <rule-repo>pmd</rule-repo>
-        <rule-key>AvoidDoubleOrFloatEqualCompareRule</rule-key>
-        <prop>
-          <key>remediationFunction</key>
-          <txt>CONSTANT_ISSUE</txt>
-        </prop>
-        <prop>
-          <key>offset</key>
-          <val>2</val>
-          <txt>min</txt>
-        </prop>
-      </chc>
+<!--      <chc>-->
+<!--        <rule-repo>pmd</rule-repo>-->
+<!--        <rule-key>AvoidDoubleOrFloatEqualCompareRule</rule-key>-->
+<!--        <prop>-->
+<!--          <key>remediationFunction</key>-->
+<!--          <txt>CONSTANT_ISSUE</txt>-->
+<!--        </prop>-->
+<!--        <prop>-->
+<!--          <key>offset</key>-->
+<!--          <val>2</val>-->
+<!--          <txt>min</txt>-->
+<!--        </prop>-->
+<!--      </chc>-->
 
       <!--AlibabaJavaSets  6-->
       <chc>
